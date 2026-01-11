@@ -1,0 +1,505 @@
+{
+  "selected_features": [
+    "HasSpending",
+    "log_TotalSpending",
+    "CryoSleep_NoSpending",
+    "CryoSleep",
+    "SpendingDiversity",
+    "log_Spa",
+    "log_RoomService",
+    "Spa_Ratio",
+    "log_VRDeck",
+    "RoomService_Ratio",
+    "AvgSpending",
+    "VRDeck_Ratio",
+    "TotalSpending",
+    "FamilySpendingPerPerson",
+    "MaxSpending",
+    "Age_TotalSpending",
+    "RoomService",
+    "Spa",
+    "VRDeck",
+    "log_ShoppingMall",
+    "log_FoodCourt",
+    "ShoppingMall_Ratio",
+    "FoodCourt_Ratio",
+    "ShoppingMall",
+    "FoodCourt",
+    "DeckGroup",
+    "Destination",
+    "HomePlanet",
+    "SpendingRankInGroup",
+    "Deck"
+  ],
+  "num_features": 30,
+  "feature_scores": [
+    {
+      "Feature": "HasSpending",
+      "ANOVA_Score": 2624.90521282366,
+      "ANOVA_pvalue": 0.0,
+      "MI_Score": 0.12617254618537554,
+      "ANOVA_Score_Norm": 0.9999999999999619,
+      "MI_Score_Norm": 0.9151584510090354,
+      "Combined_Score": 0.9745475353026839
+    },
+    {
+      "Feature": "log_TotalSpending",
+      "ANOVA_Score": 2449.957189379786,
+      "ANOVA_pvalue": 0.0,
+      "MI_Score": 0.13786961804783027,
+      "ANOVA_Score_Norm": 0.933347890396232,
+      "MI_Score_Norm": 0.999999999274677,
+      "Combined_Score": 0.9533435230597654
+    },
+    {
+      "Feature": "CryoSleep_NoSpending",
+      "ANOVA_Score": 2334.295198896039,
+      "ANOVA_pvalue": 0.0,
+      "MI_Score": 0.11780440966668082,
+      "ANOVA_Score_Norm": 0.8892827131227004,
+      "MI_Score_Norm": 0.8544624352289524,
+      "Combined_Score": 0.8788366297545759
+    },
+    {
+      "Feature": "CryoSleep",
+      "ANOVA_Score": 2334.295198896039,
+      "ANOVA_pvalue": 0.0,
+      "MI_Score": 0.10840608737886104,
+      "ANOVA_Score_Norm": 0.8892827131227004,
+      "MI_Score_Norm": 0.7862942454995628,
+      "Combined_Score": 0.858386172835759
+    },
+    {
+      "Feature": "SpendingDiversity",
+      "ANOVA_Score": 2088.533292328312,
+      "ANOVA_pvalue": 0.0,
+      "MI_Score": 0.12762067674180932,
+      "ANOVA_Score_Norm": 0.7956517637097228,
+      "MI_Score_Norm": 0.9256620744750917,
+      "Combined_Score": 0.8346548569393334
+    },
+    {
+      "Feature": "log_Spa",
+      "ANOVA_Score": 1309.846243342346,
+      "ANOVA_pvalue": 2.7629294985407535e-267,
+      "MI_Score": 0.07404909832060502,
+      "ANOVA_Score_Norm": 0.4989857396281855,
+      "MI_Score_Norm": 0.5370951143217507,
+      "Combined_Score": 0.5104185520362551
+    },
+    {
+      "Feature": "log_RoomService",
+      "ANOVA_Score": 1263.1002696341764,
+      "ANOVA_pvalue": 1.9507000060962845e-258,
+      "MI_Score": 0.07274635624803905,
+      "ANOVA_Score_Norm": 0.4811763485770795,
+      "MI_Score_Norm": 0.5276460269153498,
+      "Combined_Score": 0.4951172520785606
+    },
+    {
+      "Feature": "Spa_Ratio",
+      "ANOVA_Score": 1002.1930029429366,
+      "ANOVA_pvalue": 2.8878579244711196e-208,
+      "MI_Score": 0.07959329154022621,
+      "ANOVA_Score_Norm": 0.3817752842289984,
+      "MI_Score_Norm": 0.5773084208798094,
+      "Combined_Score": 0.4404352252242417
+    },
+    {
+      "Feature": "log_VRDeck",
+      "ANOVA_Score": 1126.1162576151878,
+      "ANOVA_pvalue": 2.908178410278445e-232,
+      "MI_Score": 0.05338329994574598,
+      "ANOVA_Score_Norm": 0.4289878573708475,
+      "MI_Score_Norm": 0.3872013331356724,
+      "Combined_Score": 0.4164519001002949
+    },
+    {
+      "Feature": "RoomService_Ratio",
+      "ANOVA_Score": 936.8421596816032,
+      "ANOVA_pvalue": 1.739228489959258e-195,
+      "MI_Score": 0.06985283101588768,
+      "ANOVA_Score_Norm": 0.3568777662004625,
+      "MI_Score_Norm": 0.5066586239543233,
+      "Combined_Score": 0.4018120235266207
+    },
+    {
+      "Feature": "AvgSpending",
+      "ANOVA_Score": 362.6392663770685,
+      "ANOVA_pvalue": 3.036122215649204e-79,
+      "MI_Score": 0.1318318617045795,
+      "ANOVA_Score_Norm": 0.13811659687755848,
+      "MI_Score_Norm": 0.9562067660419803,
+      "Combined_Score": 0.383543647626885
+    },
+    {
+      "Feature": "VRDeck_Ratio",
+      "ANOVA_Score": 838.2393523812152,
+      "ANOVA_pvalue": 4.8950488428005094e-176,
+      "MI_Score": 0.07250943681424338,
+      "ANOVA_Score_Norm": 0.31931183667437474,
+      "MI_Score_Norm": 0.5259275958572349,
+      "Combined_Score": 0.38129656442923276
+    },
+    {
+      "Feature": "TotalSpending",
+      "ANOVA_Score": 360.2952556460654,
+      "ANOVA_pvalue": 9.382846925373739e-79,
+      "MI_Score": 0.12848924405826656,
+      "ANOVA_Score_Norm": 0.1372235701540799,
+      "MI_Score_Norm": 0.9319619926740811,
+      "Combined_Score": 0.37564509691008025
+    },
+    {
+      "Feature": "FamilySpendingPerPerson",
+      "ANOVA_Score": 336.1093358287296,
+      "ANOVA_pvalue": 1.087314956632172e-73,
+      "MI_Score": 0.13127802783898934,
+      "ANOVA_Score_Norm": 0.1280091615154521,
+      "MI_Score_Norm": 0.952189681835681,
+      "Combined_Score": 0.37526331761152076
+    },
+    {
+      "Feature": "MaxSpending",
+      "ANOVA_Score": 261.1641417958991,
+      "ANOVA_pvalue": 6.64612329907128e-58,
+      "MI_Score": 0.12735355958572758,
+      "ANOVA_Score_Norm": 0.09945636515561451,
+      "MI_Score_Norm": 0.9237246124028075,
+      "Combined_Score": 0.3467368393297724
+    },
+    {
+      "Feature": "Age_TotalSpending",
+      "ANOVA_Score": 276.42373655234616,
+      "ANOVA_pvalue": 3.949345965621373e-61,
+      "MI_Score": 0.1188439764570206,
+      "ANOVA_Score_Norm": 0.10527000146995392,
+      "MI_Score_Norm": 0.8620026518793322,
+      "Combined_Score": 0.3322897965927674
+    },
+    {
+      "Feature": "RoomService",
+      "ANOVA_Score": 536.4917282725846,
+      "ANOVA_pvalue": 3.2053937467166093e-115,
+      "MI_Score": 0.07324030485753141,
+      "ANOVA_Score_Norm": 0.20435131686486782,
+      "MI_Score_Norm": 0.5312287496074714,
+      "Combined_Score": 0.3024145466876489
+    },
+    {
+      "Feature": "Spa",
+      "ANOVA_Score": 435.91759086779433,
+      "ANOVA_pvalue": 1.701990060045962e-94,
+      "MI_Score": 0.08447872803575818,
+      "ANOVA_Score_Norm": 0.16603434535729744,
+      "MI_Score_Norm": 0.6127436136450027,
+      "Combined_Score": 0.30004712584360904
+    },
+    {
+      "Feature": "VRDeck",
+      "ANOVA_Score": 380.7715456437771,
+      "ANOVA_pvalue": 4.969700852749172e-83,
+      "MI_Score": 0.060806875673227845,
+      "ANOVA_Score_Norm": 0.14502467529570548,
+      "MI_Score_Norm": 0.4410462325936658,
+      "Combined_Score": 0.23383114248509357
+    },
+    {
+      "Feature": "log_ShoppingMall",
+      "ANOVA_Score": 286.14708832073984,
+      "ANOVA_pvalue": 3.5002584194764246e-63,
+      "MI_Score": 0.046333234027539305,
+      "ANOVA_Score_Norm": 0.10897442690457744,
+      "MI_Score_Norm": 0.33606558609496284,
+      "Combined_Score": 0.17710177466169305
+    },
+    {
+      "Feature": "log_FoodCourt",
+      "ANOVA_Score": 161.40362220452008,
+      "ANOVA_pvalue": 1.1815152546808633e-36,
+      "MI_Score": 0.04525490929650178,
+      "ANOVA_Score_Norm": 0.061449367676944346,
+      "MI_Score_Norm": 0.3282442492005551,
+      "Combined_Score": 0.14148783213402757
+    },
+    {
+      "Feature": "ShoppingMall_Ratio",
+      "ANOVA_Score": 3.60301848812711,
+      "ANOVA_pvalue": 0.05770786079344959,
+      "MI_Score": 0.05780934012138439,
+      "ANOVA_Score_Norm": 0.0013301223868480224,
+      "MI_Score_Norm": 0.41930441889959036,
+      "Combined_Score": 0.12672241134067072
+    },
+    {
+      "Feature": "FoodCourt_Ratio",
+      "ANOVA_Score": 11.352078655747812,
+      "ANOVA_pvalue": 0.000756913598530524,
+      "MI_Score": 0.05653140569469728,
+      "ANOVA_Score_Norm": 0.004282377562133564,
+      "MI_Score_Norm": 0.41003526704543164,
+      "Combined_Score": 0.126008244407123
+    },
+    {
+      "Feature": "ShoppingMall",
+      "ANOVA_Score": 0.7665390842408885,
+      "ANOVA_pvalue": 0.3813140439877879,
+      "MI_Score": 0.05187026409712692,
+      "ANOVA_Score_Norm": 0.00024947378965367014,
+      "MI_Score_Norm": 0.37622693668092405,
+      "Combined_Score": 0.11304271265703478
+    },
+    {
+      "Feature": "FoodCourt",
+      "ANOVA_Score": 18.096176966213786,
+      "ANOVA_pvalue": 2.122240622339601e-05,
+      "MI_Score": 0.04062062732544147,
+      "ANOVA_Score_Norm": 0.006851760004523473,
+      "MI_Score_Norm": 0.29463073787501265,
+      "Combined_Score": 0.09318545336567023
+    },
+    {
+      "Feature": "DeckGroup",
+      "ANOVA_Score": 106.52232173583289,
+      "ANOVA_pvalue": 7.878546450780754e-25,
+      "MI_Score": 0.02256844797924118,
+      "ANOVA_Score_Norm": 0.040540560695151245,
+      "MI_Score_Norm": 0.16369413568000335,
+      "Combined_Score": 0.07748663319060686
+    },
+    {
+      "Feature": "Destination",
+      "ANOVA_Score": 102.86112746012186,
+      "ANOVA_pvalue": 4.8906572988557026e-24,
+      "MI_Score": 0.021370818763371435,
+      "ANOVA_Score_Norm": 0.03914571028563218,
+      "MI_Score_Norm": 0.15500745596072255,
+      "Combined_Score": 0.07390423398815929
+    },
+    {
+      "Feature": "HomePlanet",
+      "ANOVA_Score": 117.4273155724816,
+      "ANOVA_pvalue": 3.451794552217622e-27,
+      "MI_Score": 0.017321456339835395,
+      "ANOVA_Score_Norm": 0.0446951709052031,
+      "MI_Score_Norm": 0.12563650043088184,
+      "Combined_Score": 0.06897756976290673
+    },
+    {
+      "Feature": "SpendingRankInGroup",
+      "ANOVA_Score": 181.1007466101066,
+      "ANOVA_pvalue": 7.139636560628385e-41,
+      "MI_Score": 0.009131305381344434,
+      "ANOVA_Score_Norm": 0.06895362447799727,
+      "MI_Score_Norm": 0.06623145479052114,
+      "Combined_Score": 0.06813697357175444
+    },
+    {
+      "Feature": "Deck",
+      "ANOVA_Score": 106.30139005036462,
+      "ANOVA_pvalue": 8.795849713490582e-25,
+      "MI_Score": 0.018124956030027395,
+      "ANOVA_Score_Norm": 0.040456389621795326,
+      "MI_Score_Norm": 0.13146446819481988,
+      "Combined_Score": 0.0677588131937027
+    },
+    {
+      "Feature": "AgeRankInGroup",
+      "ANOVA_Score": 114.16849781459345,
+      "ANOVA_pvalue": 1.747082688349535e-26,
+      "MI_Score": 0.01305628003176218,
+      "ANOVA_Score_Norm": 0.04345361884818871,
+      "MI_Score_Norm": 0.0947001972382532,
+      "Combined_Score": 0.058827592365208056
+    },
+    {
+      "Feature": "IsAdult",
+      "ANOVA_Score": 96.94237435991222,
+      "ANOVA_pvalue": 9.385973951672971e-23,
+      "MI_Score": 0.013308721288290082,
+      "ANOVA_Score_Norm": 0.036890769803385744,
+      "MI_Score_Norm": 0.09653121164098566,
+      "Combined_Score": 0.054782902354665715
+    },
+    {
+      "Feature": "IsChild",
+      "ANOVA_Score": 138.84797870364272,
+      "ANOVA_pvalue": 8.29620179912168e-32,
+      "MI_Score": 0.005533197497422426,
+      "ANOVA_Score_Norm": 0.05285606554520895,
+      "MI_Score_Norm": 0.04013355205995763,
+      "Combined_Score": 0.04903931149963355
+    },
+    {
+      "Feature": "IsAlone",
+      "ANOVA_Score": 114.01198604601035,
+      "ANOVA_pvalue": 1.888635780206822e-26,
+      "MI_Score": 0.006981867949323872,
+      "ANOVA_Score_Norm": 0.04339399062634018,
+      "MI_Score_Norm": 0.05064109151181942,
+      "Combined_Score": 0.04556812089198395
+    },
+    {
+      "Feature": "GroupId",
+      "ANOVA_Score": 4.0158951685295925,
+      "ANOVA_pvalue": 0.04510426656159906,
+      "MI_Score": 0.020119296063535685,
+      "ANOVA_Score_Norm": 0.0014874211159979348,
+      "MI_Score_Norm": 0.14592987442645147,
+      "Combined_Score": 0.04482015710913399
+    },
+    {
+      "Feature": "GroupSize",
+      "ANOVA_Score": 59.768285759150054,
+      "ANOVA_pvalue": 1.186047181312456e-14,
+      "MI_Score": 0.011336113654249802,
+      "ANOVA_Score_Norm": 0.022728098062017577,
+      "MI_Score_Norm": 0.08222343549319683,
+      "Combined_Score": 0.04057669929137135
+    },
+    {
+      "Feature": "CabinNum",
+      "ANOVA_Score": 16.72826699261349,
+      "ANOVA_pvalue": 4.3522669158108564e-05,
+      "MI_Score": 0.01643379888208485,
+      "ANOVA_Score_Norm": 0.006330610444250263,
+      "MI_Score_Norm": 0.11919811705334353,
+      "Combined_Score": 0.040190862426978245
+    },
+    {
+      "Feature": "FamilySize",
+      "ANOVA_Score": 58.61981214327204,
+      "ANOVA_pvalue": 2.117658091289647e-14,
+      "MI_Score": 0.008827823762824538,
+      "ANOVA_Score_Norm": 0.022290549881617293,
+      "MI_Score_Norm": 0.06403023292165015,
+      "Combined_Score": 0.03481245479362715
+    },
+    {
+      "Feature": "IsFirstInGroup",
+      "ANOVA_Score": 67.35531946091952,
+      "ANOVA_pvalue": 2.5915401959976303e-16,
+      "MI_Score": 0.006049767375323256,
+      "ANOVA_Score_Norm": 0.025618624013113937,
+      "MI_Score_Norm": 0.043880352006461724,
+      "Combined_Score": 0.031097142411118273
+    },
+    {
+      "Feature": "Age",
+      "ANOVA_Score": 48.15692211045651,
+      "ANOVA_pvalue": 4.216285538171591e-12,
+      "MI_Score": 0.00682643234980973,
+      "ANOVA_Score_Norm": 0.01830437341896796,
+      "MI_Score_Norm": 0.0495136814152202,
+      "Combined_Score": 0.02766716581784363
+    },
+    {
+      "Feature": "Side",
+      "ANOVA_Score": 76.3494474772403,
+      "ANOVA_pvalue": 2.819935244020923e-18,
+      "MI_Score": 0.003181831901128973,
+      "ANOVA_Score_Norm": 0.029045228066895162,
+      "MI_Score_Norm": 0.02307855743618049,
+      "Combined_Score": 0.02725522687768076
+    },
+    {
+      "Feature": "HasFamily",
+      "ANOVA_Score": 88.04633638966894,
+      "ANOVA_pvalue": 8.019343215941836e-21,
+      "MI_Score": 0.0,
+      "ANOVA_Score_Norm": 0.03350153632615344,
+      "MI_Score_Norm": 0.0,
+      "Combined_Score": 0.02345107542830741
+    },
+    {
+      "Feature": "IsTeen",
+      "ANOVA_Score": 5.47272822304643,
+      "ANOVA_pvalue": 0.01933797678127694,
+      "MI_Score": 0.00856438430412143,
+      "ANOVA_Score_Norm": 0.00204244880086426,
+      "MI_Score_Norm": 0.062119446032978025,
+      "Combined_Score": 0.02006554797049839
+    },
+    {
+      "Feature": "CabinSection",
+      "ANOVA_Score": 2.0013351790243816,
+      "ANOVA_pvalue": 0.15719654088516352,
+      "MI_Score": 0.008677079868576243,
+      "ANOVA_Score_Norm": 0.0007199093111739849,
+      "MI_Score_Norm": 0.06293685284071993,
+      "Combined_Score": 0.019384992370037765
+    },
+    {
+      "Feature": "AgeGroup",
+      "ANOVA_Score": 31.756082647272823,
+      "ANOVA_pvalue": 1.802575336869185e-08,
+      "MI_Score": 0.004042989534263963,
+      "ANOVA_Score_Norm": 0.012055943011041695,
+      "MI_Score_Norm": 0.02932473150051725,
+      "Combined_Score": 0.01723657955788436
+    },
+    {
+      "Feature": "PersonId",
+      "ANOVA_Score": 38.47616869788571,
+      "ANOVA_pvalue": 5.795691818343526e-10,
+      "MI_Score": 0.0024697702869731497,
+      "ANOVA_Score_Norm": 0.014616177206174759,
+      "MI_Score_Norm": 0.017913811035038526,
+      "Combined_Score": 0.01560546735483389
+    },
+    {
+      "Feature": "IsLastInGroup",
+      "ANOVA_Score": 53.914546281184435,
+      "ANOVA_pvalue": 2.2828428758434967e-13,
+      "MI_Score": 0.0,
+      "ANOVA_Score_Norm": 0.020497926622543062,
+      "MI_Score_Norm": 0.0,
+      "Combined_Score": 0.014348548635780143
+    },
+    {
+      "Feature": "CabinEven",
+      "ANOVA_Score": 1.8644343063252002,
+      "ANOVA_pvalue": 0.1721492278601976,
+      "MI_Score": 0.004881218193577785,
+      "ANOVA_Score_Norm": 0.0006677524945814301,
+      "MI_Score_Norm": 0.03540459645245346,
+      "Combined_Score": 0.011088805681943039
+    },
+    {
+      "Feature": "VIP_HighSpending",
+      "ANOVA_Score": 30.54396165912325,
+      "ANOVA_pvalue": 3.3582360230804856e-08,
+      "MI_Score": 0.0,
+      "ANOVA_Score_Norm": 0.011594146304998625,
+      "MI_Score_Norm": 0.0,
+      "Combined_Score": 0.008115902413499037
+    },
+    {
+      "Feature": "VIP",
+      "ANOVA_Score": 12.08309618152502,
+      "ANOVA_pvalue": 0.00051129611798407,
+      "MI_Score": 0.0,
+      "ANOVA_Score_Norm": 0.004560882339102258,
+      "MI_Score_Norm": 0.0,
+      "Combined_Score": 0.0031926176373715805
+    },
+    {
+      "Feature": "IsElderly",
+      "ANOVA_Score": 1.1907650663194826,
+      "ANOVA_pvalue": 0.2752055383124449,
+      "MI_Score": 0.0,
+      "ANOVA_Score_Norm": 0.00041109640245971693,
+      "MI_Score_Norm": 0.0,
+      "Combined_Score": 0.00028776748172180185
+    },
+    {
+      "Feature": "NameLength",
+      "ANOVA_Score": 0.11172190500309988,
+      "ANOVA_pvalue": 0.7382002884509499,
+      "MI_Score": 0.0,
+      "ANOVA_Score_Norm": 0.0,
+      "MI_Score_Norm": 0.0,
+      "Combined_Score": 0.0
+    }
+  ]
+}
